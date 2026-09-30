@@ -18,6 +18,8 @@ date_read: 2026-08
 ## 1. The mechanism (one sentence)
 > Three factors, the crypto market, size and momentum, explain the differences in expected returns across coins; momentum means coins that did better than the others over the last weeks keep doing better the following week.
 
+**Type** : **behavioural bias**, as for momentum in general (the paper documents the factor; the behavioural reading is ours).
+
 ## 2. What the paper actually tested
 - **Assets / universe**: coins with price, volume and market cap on CoinMarketCap, market cap above $1 million: from 109 coins in 2014 to 1,583 in 2018.
 - **Period**: 2014 to 2018.

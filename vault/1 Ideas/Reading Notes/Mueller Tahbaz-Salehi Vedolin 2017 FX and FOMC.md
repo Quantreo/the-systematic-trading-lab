@@ -18,6 +18,8 @@ date_read: 2024-06
 ## 1. The mechanism (one sentence)
 > Being short the US dollar against other currencies earns significantly more on FOMC announcement days, as compensation for monetary policy uncertainty borne by constrained intermediaries.
 
+**Type** : **risk premium** for monetary policy uncertainty, demanded by intermediaries under a **constraint** (limited capacity to carry risk).
+
 ## 2. What the paper actually tested
 - A short-USD, long-other-currencies strategy, on days with and without scheduled FOMC announcements.
 - The excess returns are higher for currencies with a higher interest rate differential against the US, increase with uncertainty about monetary policy, and increase further when the Fed eases.

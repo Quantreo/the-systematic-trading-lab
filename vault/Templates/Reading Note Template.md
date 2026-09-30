@@ -20,6 +20,8 @@ Who pays, and why?
 
 > 
 
+**Type** (risk premium / constraint / behavioural bias / scheduled flow): 
+
 ## 2. What the paper actually tested
 - **Assets / universe**: 
 - **Period**: 

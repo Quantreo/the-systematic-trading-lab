@@ -18,6 +18,8 @@ date_read: 2026-08
 ## 1. The mechanism (one sentence)
 > Carry is the return you earn if prices do not move; it is positive on average because it compensates for bearing risk in bad times (carry crashes when volatility spikes).
 
+**Type** : **risk premium**, paid for holding assets that lose in bad times.
+
 ## 2. What the paper actually tested
 - **Assets / universe**: eight asset classes: global equity indices, global government bonds, currencies, commodities, US Treasuries, US credit, equity index calls and puts
 - **Period**: from the 1970s or 1980s depending on the class, to 2012

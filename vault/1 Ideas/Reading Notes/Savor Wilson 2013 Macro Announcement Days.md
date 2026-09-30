@@ -18,6 +18,8 @@ date_read: 2024-06
 ## 1. The mechanism (one sentence)
 > On days when important macro news is scheduled (inflation, unemployment, interest rates), investors bear more risk, and they are paid for it: stock returns and Sharpe ratios are much higher on those days than on the others.
 
+**Type** : **risk premium**, investors are paid for holding stocks through scheduled macro news.
+
 ## 2. What the paper actually tested
 - US stock market excess returns, 1958 to 2009, announcement days against all other days.
 - Announcements: inflation, unemployment, FOMC.

@@ -18,6 +18,8 @@ date_read: 2026-08
 ## 1. The mechanism (one sentence)
 > Prices under-react to information and then over-extend as flows chase them, so an asset's own past 12-month return predicts its next month return, across every liquid futures market.
 
+**Type** : **behavioural bias**, under-reaction to news, then over-extension as flows chase the move.
+
 ## 2. What the paper actually tested
 - **Assets / universe**: 58 liquid futures and forwards (equity indices, bonds, commodities, FX)
 - **Period**: data from 1965, results mostly on 1985-2009

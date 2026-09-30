@@ -17,6 +17,8 @@ date_read: 2026-08
 ## 1. The mechanism (one sentence)
 > Trend following earns because prices keep moving in the direction of recent moves; the book is less about why than about **how** to turn a trend into a position that is sized, combined and traded cheaply.
 
+**Type** : **behavioural bias**, the trend mechanism (under-reaction, then chasing).
+
 ## 2. What the chapters actually do (strategies 6 to 9)
 - **Strategy 6, slow trend, long and short** : one moving-average crossover, long or short.
 - **Strategy 7, trend strength** : the position follows how strong the trend is, not just its sign. The forecast is scaled so that its average absolute value is 10, and capped at 20.

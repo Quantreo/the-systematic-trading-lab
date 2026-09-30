@@ -18,6 +18,8 @@ date_read: 2024-06
 ## 1. The mechanism (one sentence)
 > US equities earn most of their annual excess return in the 24 hours before scheduled FOMC announcements. The paper documents the effect; it does not find a mechanism that explains it.
 
+**Type** : not identified by the paper: the authors test risk-based explanations and none fits. My own hypothesis for the FX version is a **scheduled flow** (funds cutting risk before the Fed), met by liquidity providers under a **constraint** (risk limits).
+
 ## 2. What the paper actually tested
 - **Assets / universe**: S&P 500, intraday; other major equity indices as a check
 - **Period**: September 1994 to March 2011, 131 scheduled meetings

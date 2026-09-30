@@ -18,6 +18,8 @@ date_read: 2024-06
 ## 1. The mechanism (one sentence)
 > Investors who care about when uncertainty is resolved, not only about the outcome, demand a premium to hold risky assets through a scheduled announcement.
 
+**Type** : **risk premium**, paid for bearing the risk of a scheduled announcement, explained by investor preferences.
+
 ## 2. What the paper actually does
 - The fact to explain: returns around scheduled macro announcements (employment report, FOMC statements) account for about 55 % of the equity premium, the same evidence as [[Savor Wilson 2013 Macro Announcement Days]].
 - A theory: it characterises the investor preferences that produce an announcement premium. Standard time-separable expected utility cannot; a large class of non-expected-utility preferences can.

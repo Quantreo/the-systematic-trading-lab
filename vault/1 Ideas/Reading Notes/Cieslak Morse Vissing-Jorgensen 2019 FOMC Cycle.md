@@ -18,6 +18,8 @@ date_read: 2024-06
 ## 1. The mechanism (one sentence)
 > The Fed moves stock prices not only on meeting days: since 1994, the US equity premium is earned in the even weeks of the FOMC cycle (weeks 0, 2, 4 and 6 after a meeting), which the authors link to how the Fed communicates between meetings.
 
+**Type** : **risk premium**, moved by news from the Fed: the premium falls when the Fed turns out more accommodating than expected.
+
 ## 2. What the paper actually tested
 - US stocks, returns counted in "FOMC cycle time" (weeks since the last meeting), from 1994.
 - The equity premium is earned entirely in the even weeks.
