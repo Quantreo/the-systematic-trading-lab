@@ -95,7 +95,7 @@ Top 20 point-in-time: 176 names seen, 20 held at a time. Frozen control: today's
 | Turnover | 32 × / yr | 34 |
 | Breakeven cost | 47 bp | 49 |
 | P&L: price / funding / costs (% total) | +53 / +24 / −8 | +83 / +2 / −9 |
-| By year (%) | 2021 +4, 2022 −6, 2023 +16, 2024 +23, 2025 +23, 2026 +9 | |
+| By year (%) | 2021 +4, 2022 −6.5, 2023 +15, 2024 +23, 2025 +24, 2026 +7 (to August) | |
 | Positive months | 57 % ; worst −9.2 %, best +12.9 % | |
 | Bootstrap 5-95 % : Sharpe / vol / max DD | 0.19-1.52 / 16-20 % / −14 to −33 % | |
 
@@ -107,17 +107,18 @@ Top 5 names = 69 % of P&L (SUI, SIREN, BTC, LAB, SOL). Top 10 days = 60 % of P&L
 ### 2.6 Behaviour by regime vs expected
 | Regime | Expected (1.3) | Observed | Match? |
 | --- | --- | --- | --- |
-| High dispersion months (37) | positive | +1.8 % per month, 68 % positive | yes |
-| Low dispersion months (44) | flat or negative | +0.4 % per month, 47 % positive | yes |
-| 2022, BTC-driven, liquidation cascades (Luna, FTX) | should suffer: everything moves together, V-shaped reversals | −6 % | yes |
-| 2024-2025, sector rotations (memes, SOL, AI) | should work | +23 %, +23 % | yes |
-| 2021 | | flat: IDM at 1 the first year, book at reduced vol | mechanical |
+| High dispersion months (31 of 63) | positive | +1.8 % per month, 68 % positive | yes |
+| Low dispersion months (32 of 63) | flat or negative | +0.4 % per month, 47 % positive; calmest third −0.2 % | yes |
+| 2022, BTC-driven, liquidation cascades (Luna, FTX) | should suffer: everything moves together, V-shaped reversals | −6.5 % (Bitcoin about −65 %) | yes |
+| 2024-2025, sector rotations (memes, SOL, AI) | should work | +23 %, +24 % | yes |
+| 2021 | | +4 %, small: IDM at 1 the first year, book at reduced vol | mechanical |
+| 2023, alts flat, brutal rotations | mixed | +15 %, of which about 11 points from funding | partly: carry, not momentum |
 
-It loses where the mechanism is absent and wins where it is present. That is the behaviour we wanted, and it gives 2024-2025 more weight than the raw Sharpe does.
+It loses where the mechanism is absent and wins where it is present, but the link is weak: correlation 0.06 month by month, t = 1.1 between high and low months, and last month's dispersion does not predict the next. A threshold (the calmest third loses), not a rule. Consistent with Pass 1, not proven. That is the behaviour we wanted, and it gives 2024-2025 more weight than the raw Sharpe does.
 
 ### 2.7 Variants tested
-- **Variants tested**: 9 in the course notebook (buffer × 4, cost × 4, frozen control), more in the research version (see [[Research Log]]).
-- **Haircut**: expected max Sharpe by luck with 9 trials on 5 years ≈ 0.9. 0.74 is below it. But the universe width was argued before the test and the regime behaviour matches the hypothesis, which counts for more than the sweep.
+- **Variants tested**: about 9 design tries (IDM on/off, width, lookback, demeaning...), more in the research version (see [[Research Log]]). Buffer, cost and frozen-control runs are stress tests, not trials.
+- **Haircut**: luck line 0.67 if the 9 tries were independent. Measured correlation 0.85, counted cautiously at 0.5: 1.8 independent tries, luck line 0.18, haircut Sharpe 0.56. 0.74 beats luck with about 90 % probability. Promising, not proven: the doubt is the 5.2-year sample, not the search.
 
 ### 2.8 Known weaknesses
 - Two years out of five carry the result. Five years of crypto is one cycle.
