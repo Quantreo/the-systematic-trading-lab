@@ -1,0 +1,19 @@
+# market data: downloaded by each user with the scripts in data/ (see data/SOURCES.md)
+data_fomc/*.parquet
+data_trend/*.parquet
+
+# course production files, not for students
+_teaching/
+
+# Obsidian: keep the settings, not the personal workspace
+vault/.obsidian/workspace*.json
+vault/.obsidian/cache
+
+# Python / Jupyter / macOS
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# local environment
+.venv/
+.idea/

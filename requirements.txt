@@ -1,0 +1,18 @@
+# Versions tested with the notebooks and data scripts of the course, on Python 3.12.
+# Install: pip install -r requirements.txt
+
+# data and computation
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1          # reads and writes the .parquet data files
+
+# charts
+matplotlib==3.11.2
+pillow==12.3.0           # saves the animated GIF in notebook 02b
+
+# data download scripts (data/)
+requests==2.34.2
+
+# to open the notebooks in the browser (Jupyter Notebook / JupyterLab).
+# Not needed in VS Code or PyCharm: they only need ipykernel, and offer to install it the first time you open a notebook.
+jupyter==1.1.1
