@@ -8,7 +8,7 @@ pyarrow==25.0.1          # reads and writes the .parquet data files
 
 # charts
 matplotlib==3.11.2
-pillow==12.3.0           # saves the animated GIF in notebook 02b
+pillow==12.3.0           # saves the animated GIF in the tutorial notebook
 
 # data download scripts (data/)
 requests==2.34.2

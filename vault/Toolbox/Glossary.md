@@ -27,9 +27,9 @@ type: reference
 
 **Forecast** : the signal scaled to a common unit (Carver: average absolute value 10), so that different signals and assets are comparable.
 
-**FDM, forecast diversification multiplier** : when you average several correlated forecasts, the average is smaller than each. The FDM scales it back up. Principle: averaging shrinks, FDM restores.
+**FDM, forecast diversification multiplier** : when you average several correlated forecasts, the average is smaller than each, because they partly cancel. The FDM scales it back up so the combined forecast keeps an average size of 10. For N forecasts with equal weights and an average correlation ρ: FDM = 1 ÷ √((1 + (N − 1) × ρ) ÷ N). Crypto XS Momentum: three speeds (7, 30, 90 days) correlated at 0.30 → FDM = 1 ÷ √((1 + 2 × 0.30) ÷ 3) ≈ 1.37. The less correlated the forecasts, the bigger the FDM (at most √N). Measure ρ on the past only. See [[Carver 2023 Advanced Futures Trading Strategies - trend chapters]], strategy 9.
 
-**IDM, instrument diversification multiplier** : the same idea across assets: a portfolio of N assets at target vol each has less vol than target; IDM scales positions up.
+**IDM, instrument diversification multiplier** : the same idea across assets. N positions each sized for the target vol produce less vol together, because they partly cancel. The IDM scales every position up so the strategy runs at its target: target vol ÷ realised vol of the un-scaled strategy, measured on past years only, capped at √N. Crypto XS Momentum: 1 in the first year, then about 4.5 (the cap for 20 names).
 
 **Vol targeting** : sizing each position so that the strategy runs at a chosen annualised volatility (15-20 % per strategy in this course, 10 % for the whole book).
 
