@@ -122,7 +122,7 @@ It loses where the mechanism is absent and wins where it is present, but the lin
 
 ### 2.8 Known weaknesses
 - Two years out of five carry the result. Five years of crypto is one cycle.
-- A third of the P&L is funding collected, not momentum: correlation with a funding-carry sleeve on the same universe will be material (+0.44 monthly in the research version).
+- A third of the P&L is funding collected, not momentum: expect a high correlation with any carry strategy.
 - Cost sensitivity: Sharpe 0.82 / 0.74 / 0.66 / 0.48 at 1 / 5 / 10 / 20 bp.
 - Buffer: 0.70 / 0.74 / 0.74 / 0.77 at 0 / 5 / 10 / 20 %, turnover 46 → 25. Monotone up to the degenerate point; 10 % kept.
 

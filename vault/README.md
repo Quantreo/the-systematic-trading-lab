@@ -1,4 +1,4 @@
-# The Systematic Lab : research vault
+# The Systematic Trading Lab : research vault
 
 Your research desk: everything you need to go from an idea to a strategy in a portfolio, in one place.
 
