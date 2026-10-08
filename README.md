@@ -7,7 +7,8 @@ The research vault and notebooks of the course **[The Systematic Trading Lab](ht
 | Folder | What it holds |
 | --- | --- |
 | `vault/` | An Obsidian vault: idea journal, strategy sheets, research log, portfolio, templates and toolbox. Open it with *File → Open folder as vault*. |
-| `notebooks/` | `01_fomc_drift`: a strategy tested and killed. `02_crypto_xs_momentum`: a strategy built brick by brick. `02_tutorial_step_by_step`: the same, every step drawn on real data. |
+| `data_portfolio/` | Daily returns of two crypto books, of Crypto XS Momentum, and the FOMC Drift trades. Used by notebook 03, no download needed. |
+| `notebooks/` | `01_fomc_drift`: a strategy tested and killed. `02_crypto_xs_momentum`: a strategy built brick by brick. `02_tutorial_step_by_step`: the same, every step drawn on real data. `03_portfolio`: what a strategy is worth to a book, how to combine, when to cut. |
 | `data/` | The scripts that download the market data, and their sources. |
 
 ## Setup
